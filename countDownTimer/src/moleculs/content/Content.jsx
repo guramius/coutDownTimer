@@ -17,8 +17,12 @@ const Content = () => {
                 <div>
                     <Timer />
                 </div>
+                <div className="absolute bottom-4">
+                    <Icones/>  
+                </div>
+
             </div>
-            <Icones/>                
+                          
         </div>
     );
 };

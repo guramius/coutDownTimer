@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .textStyles {
+    @apply bg-[#343650] text-[#FB5E84] text-[80px] w-36 h-40 text-center shadow-[0px_7px_0px_#191A23] rounded-lg;
+  }
+
+  @media (max-width: 767px) {
+    .textStyles {
+      @apply w-[70px] h-[70px] text-[28px];
+    }
+  }
+}
